@@ -78,12 +78,7 @@ WSGI_APPLICATION = "eventcalendar.wsgi.application"
 DATABASES = {
     "default": {
        #'ENGINE': 'django.db.backends.sqlite3',
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': 'XjI7RahbJ8Tyg3zd9SvY',
-        'HOST': 'containers-us-west-120.railway.app',
-        'PORT': '6810',
+        
     }
 }
 
