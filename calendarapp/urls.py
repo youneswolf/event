@@ -20,6 +20,7 @@ urlpatterns = [
         name="remove_event",
     ),
     path("all-event-list/", views.AllEventsListView.as_view(), name="all_events"),
+
     path(
         "running-event-list/",
         views.RunningEventsListView.as_view(),
